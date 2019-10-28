@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tempslie〜時と心と人を繋ぐプライベートヨガサロン</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- <header class="top">
+      <img src="images/tempslie.png" width:20px; height:20px; />
+      <nav class="menu">
+        <a href="#top">TOP</a>
+        <a href="https://reserva.be/tempslie">レッスン予約</a>
+        <input type="text" id="magicWord" />暗証番号を入力
+        <button id="checkMagicWord">ログイン</button>
+      </nav>
+    </header> -->
+
+    <!-- main section -->
+    <section>
+      <div class="main-section">
+        <h2>Welcome our website</h2>
+      </div>
+    </section>
+
+    <!-- introduction section -->
+    <section>
+      <div class="introduction">
+        <div class="concept">
+          <div class="image">
+            <img id="studio-image" src="images/studio2.jpg" />
+          </div>
+          <div class="text">
+            "時と心と人を紡ぐ"tempslie（タンリエ）はフランス語で「時を紡ぐ、時をつなぐ」という意味です。
+          </div>
+        </div>
+        <div class="concept">
+          <p>
+            皆様の大切で貴重な「時間」が、心身共に心地よく流れるように
+          </p>
+          <img src="images/maki.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 申込 section -->
+    <section>
+      <p><input type="button" value="初回限定プログラムに申し込む" /></p>
+    </section>
+
+    <footer>&copy 2019 Tempslie</footer>
+
+    <script type="text/javascript">
+      document.getElementById("checkMagicWord").onclick = function() {
+        var magicWordEntered = document.getElementById(magicWord).value;
+        var magicWord = "Tempslie";
+
+        if (magicWordEntered == magicWord) {
+          alert("ログインできました");
+        } else {
+          alert("暗証番号が違います。");
+        }
+      };
+    </script>
+  </body>
+</html>

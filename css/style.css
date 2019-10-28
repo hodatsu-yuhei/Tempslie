@@ -1,0 +1,54 @@
+body {
+  font-family: meiryo;
+  margin: 0;
+}
+
+.main-section {
+  background-image: url("../images/studio.jpg");
+  height: 750px;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.main-section > h2 {
+  /* color: red; */
+}
+
+.introduction {
+  background-color: lightblue;
+}
+
+.concept {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 24px 0;
+}
+
+.concept #studio-image {
+  height: 100%;
+  width: 100%;
+}
+
+.concept > .text {
+  color: red;
+}
+
+.top {
+  background-color: white;
+  text-align: center;
+}
+.topimage {
+  width: 100%;
+}
+.menu {
+  float: right;
+  background-color: lightblue;
+}
+
+.clear {
+  content: "";
+  display: bloak;
+  clear: both;
+}

@@ -3,6 +3,45 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > .options {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+}
+
+.navbar .option {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  padding: 16px;
+  text-align: center;
+}
+
+.navbar .option:hover {
+  cursor: pointer;
+}
+
+.option > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .main-section {
   background-image: url("../images/studio.jpg");
   height: 750px;
@@ -32,7 +71,15 @@ body {
 }
 
 .concept > .text {
-  color: red;
+  color: grey;
+  font-family: "Osaka-Mono";
+  text-align: center;
+  line-height: 150px;
+}
+
+.concept #instructor {
+  height: 800px;
+  width: 450px;
 }
 
 .top {
